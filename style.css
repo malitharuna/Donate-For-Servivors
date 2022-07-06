@@ -34,7 +34,7 @@
     text-align: center;
 }
 .sub-head {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -42,6 +42,8 @@
     display: flex;
     justify-content: space-evenly;
     margin: 30px;
+    font-size: 20px;
+    font-weight:bold ;
 }
 .dollar {
     border: .5px solid lightgrey;
@@ -49,8 +51,47 @@
     padding: 30px;
 }
 #focus1 {
-    
+    color: rgba(143, 1, 46, 0.816);
+    background-color: palevioletred ;
+    border: 2px solid darksalmon;
+    border-radius: 5px;   
 }
-.
-
+#more-amount {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+input {
+    margin: 20px;
+}
 /*..donate today section ends..*/
+
+/*..donate plan start..*/
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+.card-design {
+    padding: 30px 15px;
+    border-radius: 5px;
+    height: 300px;
+    width: 350px;
+}
+#card1{
+    background-color: rgba(193, 255, 255, 0.807);
+}
+#card2{
+    background-color: rgba(254, 213, 220, 0.888);
+}
+#card3{
+    background-color: rgba(255, 231, 193, 0.807);
+}
+/*..donate plan Ends..*/
+
+/*..footer start..*/
+
+/*..footer start..*/
