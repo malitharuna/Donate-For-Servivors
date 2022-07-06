@@ -31,7 +31,7 @@
 
 /*..donate today section start..*/
 .section-description {
-    margin : 80px;
+    margin : 60px;
     text-align: center;
 }
 .sub-head {
@@ -91,9 +91,22 @@ input {
     background-color: rgba(254, 213, 220, 0.888);
 }
 #card3{
-    background-color: rgba(193, 255, 255, 0.807);
+    background-color:palevioletred;
 }
+
 /*..donate plan Ends..*/
+ /*..reason section start..*/
+
+ #reason-blog {
+    background-color: grey;
+    margin: 0 50px 0 50px;
+    padding: 30px 50px ;
+ }
+.blog {
+    display:flex; 
+    gap:30px;
+} 
+ /*..reason section ends..*/
 
 /*..get update start..*/
 #subscription {
@@ -105,18 +118,15 @@ input {
     justify-content: center;
     align-items: center;
 }
-.p-div {
+.get-update-div {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 /*..get update ends..*/
 
-
-
 /*..footer start..*/
-#footer {
+footer {
     background-color: black;
     margin-top: 50px;
     padding: 30px;
