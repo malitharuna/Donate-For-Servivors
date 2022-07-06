@@ -19,22 +19,23 @@
     font-size: 60px;
 }
 .donate-btn {
+    border: 1px solid rgb(107, 106, 106);
     padding: 5px 10px;
-    margin: 20px;
+    margin: 20px 0px;
     color: white;
     font-size: 24px;
-    background-image: linear-gradient(red, rgb(155, 63, 63)) ;
+    background-image: linear-gradient(red, rgb(108, 29, 29)) ;
     border-radius: 3px 10px;
 }
 /*..banner section Ends..*/
 
 /*..donate today section start..*/
 .section-description {
-    margin : 100px;
+    margin : 80px;
     text-align: center;
 }
 .sub-head {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -57,15 +58,17 @@
     border-radius: 5px;   
 }
 #more-amount {
-    border: none;
-    border-bottom: 1px solid lightgrey;
-    width: 60%;
-    text-align: center;
-    padding: 10px;
-    font-size: 18px;
+     border: none;
+     border-bottom: 1px solid lightgrey;
 }
 input {
-    margin: 20px;
+    border: none;
+    margin: 20px 0px;
+    padding: 9px;
+    width: 50%;
+    text-align: center;
+    font-size: 18px; 
+    border-radius: 5px ;
 }
 /*..donate today section ends..*/
 
@@ -88,25 +91,41 @@ input {
     background-color: rgba(254, 213, 220, 0.888);
 }
 #card3{
-    background-color: rgba(255, 231, 193, 0.807);
+    background-color: rgba(193, 255, 255, 0.807);
 }
 /*..donate plan Ends..*/
+
+/*..get update start..*/
+#subscription {
+    background-color: rgb(245, 242, 220);
+    height: 200px;
+    width: 50%;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*..get update ends..*/
+
+
 
 /*..footer start..*/
 #footer {
     background-color: black;
     margin-top: 50px;
     padding: 30px;
-
     color: white;
     text-align: center;
 }
 .footer-description a{
     text-decoration: none;
     color: white;
-    padding-bottom:5px ;
 }
-#footer small {
-   
-}
-/*..footer start..*/
+
+/*..footer ends..*/
