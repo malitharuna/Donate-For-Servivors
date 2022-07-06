@@ -3,3 +3,54 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/*..banner section start..*/
+.banner-container {
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.banner-description {
+    color: white;
+    text-align: center;
+    padding: 200px;
+}
+#banner-heading {
+    font-size: 60px;
+}
+.donate-btn {
+    padding: 5px 10px;
+    margin: 20px;
+    color: white;
+    font-size: 24px;
+    background-image: linear-gradient(red, rgb(155, 63, 63)) ;
+    border-radius: 3px 10px;
+}
+/*..banner section Ends..*/
+
+/*..donate today section start..*/
+.donate-today-description {
+    margin : 100px;
+    text-align: center;
+}
+.sub-head {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#amount {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+}
+.dollar {
+    border: .5px solid lightgrey;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+#focus1 {
+    
+}
+.
+
+/*..donate today section ends..*/
