@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -29,7 +29,7 @@
 /*..banner section Ends..*/
 
 /*..donate today section start..*/
-.donate-today-description {
+.section-description {
     margin : 100px;
     text-align: center;
 }
@@ -51,9 +51,9 @@
     padding: 30px;
 }
 #focus1 {
-    color: rgba(143, 1, 46, 0.816);
+    color: rgba(126, 3, 13, 0.936);
     background-color: palevioletred ;
-    border: 2px solid darksalmon;
+    border: 2px solid rgba(210, 18, 18, 0.905);
     border-radius: 5px;   
 }
 #more-amount {
@@ -93,5 +93,20 @@ input {
 /*..donate plan Ends..*/
 
 /*..footer start..*/
+#footer {
+    background-color: black;
+    margin-top: 50px;
+    padding: 30px;
 
+    color: white;
+    text-align: center;
+}
+.footer-description a{
+    text-decoration: none;
+    color: white;
+    padding-bottom:5px ;
+}
+#footer small {
+   
+}
 /*..footer start..*/
